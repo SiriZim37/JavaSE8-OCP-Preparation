@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Jan 06 20:34:51 CET 2025:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instance a816c00e-0194-3d1c-e215-00000f885a08 
+on database directory /Users/sirivimonmeuntup/Documents/Dev_Project/Java-Workspace/javaocpse8/JDBC/mydb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1e2e2406 
+Loaded from file:/Users/sirivimonmeuntup/Documents/Dev%20Project/Java-Workspace/jar/JDBC/db-derby-10.17.1.0-lib/db-derby-10.17.1.0-lib/lib/derby.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=21.0.5+11-LTS
+user.dir=/Users/sirivimonmeuntup/Documents/Dev Project/Java-Workspace/javaocpse8/JDBC
+os.name=Mac OS X
+os.arch=x86_64
+os.version=15.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

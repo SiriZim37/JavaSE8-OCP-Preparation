@@ -1,0 +1,12 @@
+server-ip = 192.168.1.1
+server-port = 8080
+
+my.multiline.prop = Das wird \
+einr sehr \
+Lange Zeile als Wert für my.multiline.prop\
+
+my.path = C:\\Dir\\File
+
+x1 : 12
+x2 =13
+x3 14
