@@ -1,9 +1,17 @@
 package ocp;
 
+import java.util.function.BinaryOperator;
+
 public class Assertions1 {
 
 	public static void main(String[] args) {
 		
+		BinaryOperator<Integer> tt = (a, b) -> {          // line 1
+			  return a*a + b*b;
+			};
+			int ss = tt.apply(2, 3);            // line 4
+			System.out.println("Sum of squares: " + ss);
+			
 		// Assertion must retun value 
 		
 		int j = 7;
