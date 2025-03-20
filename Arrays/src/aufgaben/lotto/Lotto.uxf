@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>4</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>180</x>
+      <y>284</y>
+      <w>148</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>LottoSpiel
+--
+- anzahlKugel : int
+- anzahlKugelGesamt : int
+- zahlen : int[]
+--
++ LottoSpiel(anzahlKugel : int, anzahlKugelGesamt : int)
++ ziehen() : void
++ vergleichen(tipp : LottoTipp) : int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>36</x>
+      <y>236</y>
+      <w>124</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>toString soll nach dem Muster arbeiten:
+
+Spiel 7 aus 49. [3, 7, 11, 28, 35, 40, 48]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>156</x>
+      <y>248</y>
+      <w>32</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=..</panel_attributes>
+    <additional_attributes>60.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>372</x>
+      <y>284</y>
+      <w>160</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>LottoTipp
+--
+- anzahlKugel : int
+- anzahlKugelGesamt : int
+- zahlen : int[]
+--
++ LottoTipp(anzahlKugel : int, anzahlKugelGesamt : int)
++ abgeben() : void
++ getZahlen() : int[]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>588</x>
+      <y>268</y>
+      <w>124</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>toString soll nach dem Muster arbeiten:
+
+Tipp 7 aus 49. [3, 7, 11, 28, 35, 40, 48]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>528</x>
+      <y>276</y>
+      <w>68</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=..</panel_attributes>
+    <additional_attributes>10.0;80.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>44</x>
+      <y>296</y>
+      <w>104</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>vergleichen berechnet den Gewinn</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>304</y>
+      <w>44</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=..</panel_attributes>
+    <additional_attributes>90.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>324</x>
+      <y>308</y>
+      <w>56</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>244</x>
+      <y>404</y>
+      <w>168</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>ArrayUtils
+--
+_+ createRandomUniqueArray(len : int, min : int, max : int) : int[]_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>336</y>
+      <w>96</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;170.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>248</x>
+      <y>336</y>
+      <w>84</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>190.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
